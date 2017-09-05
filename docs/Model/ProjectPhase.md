@@ -6,11 +6,11 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] 
 **project_id** | **int** |  | [optional] 
 **description** | **string** |  | 
-**board** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference**](ProjectBoardReference.md) |  | [optional] 
-**status** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference**](PhaseStatusReference.md) |  | [optional] 
-**agreement** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference**](AgreementReference.md) |  | [optional] 
-**opportunity** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference**](OpportunityReference.md) |  | [optional] 
-**parent_phase** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference**](ProjectPhaseReference.md) |  | [optional] 
+**board** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference**](ProjectBoardReference.md) |  | [optional] 
+**status** | [**\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference**](PhaseStatusReference.md) |  | [optional] 
+**agreement** | [**\Spinen\ConnectWise\Clients\Project\Model\AgreementReference**](AgreementReference.md) |  | [optional] 
+**opportunity** | [**\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference**](OpportunityReference.md) |  | [optional] 
+**parent_phase** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference**](ProjectPhaseReference.md) |  | [optional] 
 **wbs_code** | **string** |  | [optional] 
 **bill_time** | **string** |  | [optional] 
 **bill_expenses** | **string** |  | [optional] 
@@ -42,7 +42,7 @@ Name | Type | Description | Notes
 **estimated_time_revenue** | **double** |  | [optional] 
 **estimated_expense_revenue** | **double** |  | [optional] 
 **estimated_product_revenue** | **double** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Project\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

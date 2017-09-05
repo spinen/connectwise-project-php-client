@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **projectProjectsIdTeamMembersCountGet**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdTeamMembersCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdTeamMembersCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdTeamMembersGet**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember[] projectProjectsIdTeamMembersGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember[] projectProjectsIdTeamMembersGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember[]**](../Model/ProjectTeammember.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember[]**](../Model/ProjectTeammember.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdTeamMembersPost**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersPost($id, $team_member)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersPost($id, $team_member)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsTeammembersApi();
 $id = 56; // int | 
-$team_member = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember | 
+$team_member = new \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember | 
 
 try {
     $result = $api_instance->projectProjectsIdTeamMembersPost($id, $team_member);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **team_member** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember.md)|  |
+ **team_member** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdTeamMembersTeamMemberIdGet**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdGet($id, $team_member_id)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdGet($id, $team_member_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdTeamMembersTeamMemberIdPatch**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdPatch($id, $team_member_id, $operations)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdPatch($id, $team_member_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsTeammembersApi();
 $id = 56; // int | 
 $team_member_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->projectProjectsIdTeamMembersTeamMemberIdPatch($id, $team_member_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_member_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdTeamMembersTeamMemberIdPut**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdPut($id, $team_member_id, $team_member)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember projectProjectsIdTeamMembersTeamMemberIdPut($id, $team_member_id, $team_member)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsTeammembersApi();
 $id = 56; // int | 
 $team_member_id = 56; // int | 
-$team_member = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember | 
+$team_member = new \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember | 
 
 try {
     $result = $api_instance->projectProjectsIdTeamMembersTeamMemberIdPut($id, $team_member_id, $team_member);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_member_id** | **int**|  |
- **team_member** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember.md)|  |
+ **team_member** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectTeammember**](../Model/ProjectTeammember.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model;
+namespace Spinen\ConnectWise\Clients\Project\Model;
 
 use \ArrayAccess;
 
@@ -57,8 +57,8 @@ class ProjectContact implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'project_id' => 'int',
-        'contact' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata'
+        'contact' => '\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Project\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -211,7 +211,7 @@ class ProjectContact implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ContactReference
      */
     public function getContact()
     {
@@ -220,7 +220,7 @@ class ProjectContact implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -232,7 +232,7 @@ class ProjectContact implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Project\Model\Metadata
      */
     public function getInfo()
     {
@@ -241,7 +241,7 @@ class ProjectContact implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

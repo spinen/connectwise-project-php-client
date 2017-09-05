@@ -62,7 +62,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdContactsContactIdGet**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact projectProjectsIdContactsContactIdGet($id, $contact_id)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectContact projectProjectsIdContactsContactIdGet($id, $contact_id)
 
 
 
@@ -99,7 +99,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/ProjectContact.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/ProjectContact.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdContactsGet**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact[] projectProjectsIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectContact[] projectProjectsIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -160,7 +160,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact[]**](../Model/ProjectContact.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectContact[]**](../Model/ProjectContact.md)
 
 ### Authorization
 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdContactsPost**
-> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact projectProjectsIdContactsPost($id, $contact)
+> \Spinen\ConnectWise\Clients\Project\Model\ProjectContact projectProjectsIdContactsPost($id, $contact)
 
 
 
@@ -191,7 +191,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectContactsApi();
 $id = 56; // int | 
-$contact = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact | 
+$contact = new \Spinen\ConnectWise\Clients\Project\Model\ProjectContact(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectContact | 
 
 try {
     $result = $api_instance->projectProjectsIdContactsPost($id, $contact);
@@ -207,11 +207,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **contact** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact.md)|  |
+ **contact** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectContact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/ProjectContact.md)
+[**\Spinen\ConnectWise\Clients\Project\Model\ProjectContact**](../Model/ProjectContact.md)
 
 ### Authorization
 

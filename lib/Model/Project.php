@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model;
+namespace Spinen\ConnectWise\Clients\Project\Model;
 
 use \ArrayAccess;
 
@@ -56,31 +56,31 @@ class Project implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata',
+        '_info' => '\Spinen\ConnectWise\Clients\Project\Model\Metadata',
         'actual_end' => '\DateTime',
         'actual_hours' => 'double',
         'actual_start' => '\DateTime',
-        'agreement' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Project\Model\AgreementReference',
         'bill_expenses' => 'string',
         'billing_amount' => 'double',
         'billing_attention' => 'string',
         'billing_method' => 'string',
         'billing_rate_type' => 'string',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference',
         'bill_products' => 'string',
         'bill_project_after_closed_flag' => 'bool',
         'bill_time' => 'string',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
-        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
-        'bill_to_site' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
+        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
+        'bill_to_site' => '\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
         'bill_unapproved_time_and_expense' => 'bool',
-        'board' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference',
+        'board' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference',
         'budget_analysis' => 'string',
         'budget_flag' => 'bool',
         'budget_hours' => 'double',
         'business_unit_id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
+        'company' => '\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
         'customer_po' => 'string',
         'description' => 'string',
         'downpayment' => 'double',
@@ -90,31 +90,31 @@ class Project implements ArrayAccess
         'estimated_product_revenue' => 'double',
         'estimated_start' => '\DateTime',
         'estimated_time_revenue' => 'double',
-        'expense_approver' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
+        'expense_approver' => '\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
         'include_dependencies_flag' => 'bool',
         'include_estimates_flag' => 'bool',
         'location_id' => 'int',
-        'manager' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
+        'manager' => '\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
         'name' => 'string',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference',
         'project_template_id' => 'int',
         'restrict_down_payment_flag' => 'bool',
         'scheduled_end' => '\DateTime',
         'scheduled_hours' => 'double',
         'scheduled_start' => '\DateTime',
-        'ship_to_company' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
-        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
-        'ship_to_site' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
-        'site' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
-        'status' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference',
-        'time_approver' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
-        'type' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference',
+        'ship_to_company' => '\Spinen\ConnectWise\Clients\Project\Model\CompanyReference',
+        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Project\Model\ContactReference',
+        'ship_to_site' => '\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
+        'site' => '\Spinen\ConnectWise\Clients\Project\Model\SiteReference',
+        'status' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference',
+        'time_approver' => '\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
+        'type' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference',
         'do_not_display_in_portal_flag' => 'bool',
         'billing_start_date' => '\DateTime',
         'estimated_time_cost' => 'double',
         'estimated_expense_cost' => 'double',
         'estimated_product_cost' => 'double',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference'
+        'tax_code' => '\Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference'
     ];
 
     public static function swaggerTypes()
@@ -675,7 +675,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Project\Model\Metadata
      */
     public function getInfo()
     {
@@ -684,7 +684,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -759,7 +759,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -768,7 +768,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Project\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -901,7 +901,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -910,7 +910,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Project\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -993,7 +993,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -1002,7 +1002,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Project\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -1014,7 +1014,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets bill_to_contact
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ContactReference
      */
     public function getBillToContact()
     {
@@ -1023,7 +1023,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets bill_to_contact
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference $bill_to_contact
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ContactReference $bill_to_contact
      * @return $this
      */
     public function setBillToContact($bill_to_contact)
@@ -1035,7 +1035,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets bill_to_site
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\SiteReference
      */
     public function getBillToSite()
     {
@@ -1044,7 +1044,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets bill_to_site
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference $bill_to_site
+     * @param \Spinen\ConnectWise\Clients\Project\Model\SiteReference $bill_to_site
      * @return $this
      */
     public function setBillToSite($bill_to_site)
@@ -1077,7 +1077,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference
      */
     public function getBoard()
     {
@@ -1086,7 +1086,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -1186,7 +1186,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -1195,7 +1195,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Project\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -1207,7 +1207,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ContactReference
      */
     public function getContact()
     {
@@ -1216,7 +1216,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -1421,7 +1421,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets expense_approver
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\MemberReference
      */
     public function getExpenseApprover()
     {
@@ -1430,7 +1430,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets expense_approver
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference $expense_approver
+     * @param \Spinen\ConnectWise\Clients\Project\Model\MemberReference $expense_approver
      * @return $this
      */
     public function setExpenseApprover($expense_approver)
@@ -1505,7 +1505,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets manager
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\MemberReference
      */
     public function getManager()
     {
@@ -1514,7 +1514,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets manager
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference $manager
+     * @param \Spinen\ConnectWise\Clients\Project\Model\MemberReference $manager
      * @return $this
      */
     public function setManager($manager)
@@ -1551,7 +1551,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -1560,7 +1560,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Project\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -1677,7 +1677,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets ship_to_company
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\CompanyReference
      */
     public function getShipToCompany()
     {
@@ -1686,7 +1686,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets ship_to_company
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\CompanyReference $ship_to_company
+     * @param \Spinen\ConnectWise\Clients\Project\Model\CompanyReference $ship_to_company
      * @return $this
      */
     public function setShipToCompany($ship_to_company)
@@ -1698,7 +1698,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets ship_to_contact
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ContactReference
      */
     public function getShipToContact()
     {
@@ -1707,7 +1707,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets ship_to_contact
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ContactReference $ship_to_contact
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ContactReference $ship_to_contact
      * @return $this
      */
     public function setShipToContact($ship_to_contact)
@@ -1719,7 +1719,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets ship_to_site
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\SiteReference
      */
     public function getShipToSite()
     {
@@ -1728,7 +1728,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets ship_to_site
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference $ship_to_site
+     * @param \Spinen\ConnectWise\Clients\Project\Model\SiteReference $ship_to_site
      * @return $this
      */
     public function setShipToSite($ship_to_site)
@@ -1740,7 +1740,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\SiteReference
      */
     public function getSite()
     {
@@ -1749,7 +1749,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Project\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -1761,7 +1761,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference
      */
     public function getStatus()
     {
@@ -1770,7 +1770,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -1782,7 +1782,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets time_approver
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\MemberReference
      */
     public function getTimeApprover()
     {
@@ -1791,7 +1791,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets time_approver
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference $time_approver
+     * @param \Spinen\ConnectWise\Clients\Project\Model\MemberReference $time_approver
      * @return $this
      */
     public function setTimeApprover($time_approver)
@@ -1803,7 +1803,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference
      */
     public function getType()
     {
@@ -1812,7 +1812,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -1929,7 +1929,7 @@ class Project implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1938,7 +1938,7 @@ class Project implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Project\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)

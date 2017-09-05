@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model;
+namespace Spinen\ConnectWise\Clients\Project\Model;
 
 use \ArrayAccess;
 
@@ -58,11 +58,11 @@ class ProjectPhase implements ArrayAccess
         'id' => 'int',
         'project_id' => 'int',
         'description' => 'string',
-        'board' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference',
-        'status' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference',
-        'agreement' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference',
-        'parent_phase' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference',
+        'board' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference',
+        'status' => '\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Project\Model\AgreementReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference',
+        'parent_phase' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference',
         'wbs_code' => 'string',
         'bill_time' => 'string',
         'bill_expenses' => 'string',
@@ -94,7 +94,7 @@ class ProjectPhase implements ArrayAccess
         'estimated_time_revenue' => 'double',
         'estimated_expense_revenue' => 'double',
         'estimated_product_revenue' => 'double',
-        '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Project\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -545,7 +545,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference
      */
     public function getBoard()
     {
@@ -554,7 +554,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectBoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -566,7 +566,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference
      */
     public function getStatus()
     {
@@ -575,7 +575,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Project\Model\PhaseStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -587,7 +587,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -596,7 +596,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Project\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -608,7 +608,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -617,7 +617,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Project\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -629,7 +629,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets parent_phase
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference
+     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference
      */
     public function getParentPhase()
     {
@@ -638,7 +638,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets parent_phase
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference $parent_phase
+     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectPhaseReference $parent_phase
      * @return $this
      */
     public function setParentPhase($parent_phase)
@@ -1325,7 +1325,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Project\Model\Metadata
      */
     public function getInfo()
     {
@@ -1334,7 +1334,7 @@ class ProjectPhase implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
