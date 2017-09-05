@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **projectProjectsIdNotesCountGet**
-> \Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdNotesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdNotesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdNotesGet**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectNote[] projectProjectsIdNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote[] projectProjectsIdNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote[]**](../Model/ProjectNote.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote[]**](../Model/ProjectNote.md)
 
 ### Authorization
 
@@ -177,7 +177,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdNotesNoteIdGet**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdGet($id, $note_id)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdGet($id, $note_id)
 
 
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdNotesNoteIdPatch**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdPatch($id, $note_id, $operations)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdPatch($id, $note_id, $operations)
 
 
 
@@ -246,7 +246,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectNotesApi();
 $id = 56; // int | 
 $note_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->projectProjectsIdNotesNoteIdPatch($id, $note_id, $operations);
@@ -263,11 +263,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **note_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdNotesNoteIdPut**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdPut($id, $note_id, $note)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesNoteIdPut($id, $note_id, $note)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectNotesApi();
 $id = 56; // int | 
 $note_id = 56; // int | 
-$note = new \Spinen\ConnectWise\Clients\Project\Model\ProjectNote(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectNote | 
+$note = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote | 
 
 try {
     $result = $api_instance->projectProjectsIdNotesNoteIdPut($id, $note_id, $note);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **note_id** | **int**|  |
- **note** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectNote.md)|  |
+ **note** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdNotesPost**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesPost($id, $note)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote projectProjectsIdNotesPost($id, $note)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectNotesApi();
 $id = 56; // int | 
-$note = new \Spinen\ConnectWise\Clients\Project\Model\ProjectNote(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectNote | 
+$note = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote | 
 
 try {
     $result = $api_instance->projectProjectsIdNotesPost($id, $note);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **note** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectNote.md)|  |
+ **note** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectNote**](../Model/ProjectNote.md)
 
 ### Authorization
 

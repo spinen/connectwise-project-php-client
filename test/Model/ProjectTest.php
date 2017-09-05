@@ -514,4 +514,52 @@ class ProjectTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     * Test attribute "do_not_display_in_portal_flag"
+     */
+    public function testPropertyDoNotDisplayInPortalFlag()
+    {
+
+    }
+
+    /**
+     * Test attribute "billing_start_date"
+     */
+    public function testPropertyBillingStartDate()
+    {
+
+    }
+
+    /**
+     * Test attribute "estimated_time_cost"
+     */
+    public function testPropertyEstimatedTimeCost()
+    {
+
+    }
+
+    /**
+     * Test attribute "estimated_expense_cost"
+     */
+    public function testPropertyEstimatedExpenseCost()
+    {
+
+    }
+
+    /**
+     * Test attribute "estimated_product_cost"
+     */
+    public function testPropertyEstimatedProductCost()
+    {
+
+    }
+
+    /**
+     * Test attribute "tax_code"
+     */
+    public function testPropertyTaxCode()
+    {
+
+    }
+
 }

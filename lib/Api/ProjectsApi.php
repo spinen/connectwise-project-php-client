@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Api;
+namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Api;
 
 use \Spinen\ConnectWise\Clients\Project\ApiClient;
 use \Spinen\ConnectWise\Clients\Project\ApiException;
@@ -97,7 +97,7 @@ class ProjectsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count
      */
     public function projectProjectsCountGet($conditions = null, $custom_field_conditions = null)
     {
@@ -115,7 +115,7 @@ class ProjectsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsCountGetWithHttpInfo($conditions = null, $custom_field_conditions = null)
     {
@@ -161,19 +161,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Count',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count',
                 '/project/projects/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -196,7 +196,7 @@ class ProjectsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Project[]
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[]
      */
     public function projectProjectsGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -218,7 +218,7 @@ class ProjectsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Project[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[], HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -280,19 +280,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Project[]',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[]',
                 '/project/projects'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Project[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Project[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -385,7 +385,7 @@ class ProjectsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -403,7 +403,7 @@ class ProjectsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Project
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project
      */
     public function projectProjectsIdGet($id)
     {
@@ -420,7 +420,7 @@ class ProjectsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsIdGetWithHttpInfo($id)
     {
@@ -470,19 +470,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Project',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project',
                 '/project/projects/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -499,9 +499,9 @@ class ProjectsApi
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Project
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project
      */
     public function projectProjectsIdPatch($id, $operations)
     {
@@ -517,9 +517,9 @@ class ProjectsApi
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsIdPatchWithHttpInfo($id, $operations)
     {
@@ -578,19 +578,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Project',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project',
                 '/project/projects/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -607,9 +607,9 @@ class ProjectsApi
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Project
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project
      */
     public function projectProjectsIdPut($id, $project)
     {
@@ -625,9 +625,9 @@ class ProjectsApi
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsIdPutWithHttpInfo($id, $project)
     {
@@ -686,19 +686,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Project',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project',
                 '/project/projects/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -714,9 +714,9 @@ class ProjectsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Project
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project
      */
     public function projectProjectsPost($project)
     {
@@ -731,9 +731,9 @@ class ProjectsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Project API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project $project  (required)
      * @throws \Spinen\ConnectWise\Clients\Project\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project, HTTP status code, HTTP response headers (array of strings)
      */
     public function projectProjectsPostWithHttpInfo($project)
     {
@@ -780,19 +780,19 @@ class ProjectsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Project\Model\Project',
+                '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project',
                 '/project/projects'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

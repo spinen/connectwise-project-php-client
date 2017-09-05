@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **projectProjectsIdPhasesCountGet**
-> \Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdPhasesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsIdPhasesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPhasesGet**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase[] projectProjectsIdPhasesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase[] projectProjectsIdPhasesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase[]**](../Model/ProjectPhase.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase[]**](../Model/ProjectPhase.md)
 
 ### Authorization
 
@@ -177,7 +177,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPhasesPhaseIdGet**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdGet($id, $phase_id)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdGet($id, $phase_id)
 
 
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPhasesPhaseIdPatch**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdPatch($id, $phase_id, $operations)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdPatch($id, $phase_id, $operations)
 
 
 
@@ -246,7 +246,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectPhasesApi();
 $id = 56; // int | 
 $phase_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->projectProjectsIdPhasesPhaseIdPatch($id, $phase_id, $operations);
@@ -263,11 +263,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **phase_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPhasesPhaseIdPut**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdPut($id, $phase_id, $project_phase)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPhaseIdPut($id, $phase_id, $project_phase)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectPhasesApi();
 $id = 56; // int | 
 $phase_id = 56; // int | 
-$project_phase = new \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase | 
+$project_phase = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase | 
 
 try {
     $result = $api_instance->projectProjectsIdPhasesPhaseIdPut($id, $phase_id, $project_phase);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **phase_id** | **int**|  |
- **project_phase** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase.md)|  |
+ **project_phase** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPhasesPost**
-> \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPost($id, $project_phase)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase projectProjectsIdPhasesPost($id, $project_phase)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectPhasesApi();
 $id = 56; // int | 
-$project_phase = new \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase(); // \Spinen\ConnectWise\Clients\Project\Model\ProjectPhase | 
+$project_phase = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase | 
 
 try {
     $result = $api_instance->projectProjectsIdPhasesPost($id, $project_phase);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **project_phase** | [**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase.md)|  |
+ **project_phase** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectPhase**](../Model/ProjectPhase.md)
 
 ### Authorization
 

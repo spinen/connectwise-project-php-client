@@ -103,13 +103,13 @@ Class | Method | HTTP request | Description
 *ProjectsApi* | [**projectProjectsIdPatch**](docs/Api/ProjectsApi.md#projectprojectsidpatch) | **PATCH** /project/projects/{id} | 
 *ProjectsApi* | [**projectProjectsIdPut**](docs/Api/ProjectsApi.md#projectprojectsidput) | **PUT** /project/projects/{id} | 
 *ProjectsApi* | [**projectProjectsPost**](docs/Api/ProjectsApi.md#projectprojectspost) | **POST** /project/projects | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersCountGet**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammemberscountget) | **GET** /project/projects/{id}/teamMembers/count | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersGet**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammembersget) | **GET** /project/projects/{id}/teamMembers | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersPost**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammemberspost) | **POST** /project/projects/{id}/teamMembers | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdDelete**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammembersteammemberiddelete) | **DELETE** /project/projects/{id}/teamMembers/{teamMemberId} | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdGet**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammembersteammemberidget) | **GET** /project/projects/{id}/teamMembers/{teamMemberId} | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdPatch**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammembersteammemberidpatch) | **PATCH** /project/projects/{id}/teamMembers/{teamMemberId} | 
-*ProjectsTeamMembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdPut**](docs/Api/ProjectsTeamMembersApi.md#projectprojectsidteammembersteammemberidput) | **PUT** /project/projects/{id}/teamMembers/{teamMemberId} | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersCountGet**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammemberscountget) | **GET** /project/projects/{id}/teamMembers/count | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersGet**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammembersget) | **GET** /project/projects/{id}/teamMembers | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersPost**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammemberspost) | **POST** /project/projects/{id}/teamMembers | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdDelete**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammembersteammemberiddelete) | **DELETE** /project/projects/{id}/teamMembers/{teamMemberId} | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdGet**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammembersteammemberidget) | **GET** /project/projects/{id}/teamMembers/{teamMemberId} | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdPatch**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammembersteammemberidpatch) | **PATCH** /project/projects/{id}/teamMembers/{teamMemberId} | 
+*ProjectsTeammembersApi* | [**projectProjectsIdTeamMembersTeamMemberIdPut**](docs/Api/ProjectsTeammembersApi.md#projectprojectsidteammembersteammemberidput) | **PUT** /project/projects/{id}/teamMembers/{teamMemberId} | 
 
 
 ## Documentation For Models
@@ -134,9 +134,10 @@ Class | Method | HTTP request | Description
  - [ProjectPhaseReference](docs/Model/ProjectPhaseReference.md)
  - [ProjectRoleReference](docs/Model/ProjectRoleReference.md)
  - [ProjectStatusReference](docs/Model/ProjectStatusReference.md)
- - [ProjectTeamMember](docs/Model/ProjectTeamMember.md)
+ - [ProjectTeammember](docs/Model/ProjectTeammember.md)
  - [ProjectTypeReference](docs/Model/ProjectTypeReference.md)
  - [SiteReference](docs/Model/SiteReference.md)
+ - [TaxCodeReference](docs/Model/TaxCodeReference.md)
  - [ValidationError](docs/Model/ValidationError.md)
  - [WorkRoleReference](docs/Model/WorkRoleReference.md)
 

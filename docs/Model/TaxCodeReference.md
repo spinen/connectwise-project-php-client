@@ -1,10 +1,9 @@
-# MemberReference
+# TaxCodeReference
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** |  | [optional] 
-**identifier** | **string** |  | [optional] 
 **name** | **string** |  | [optional] 
 **_info** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 

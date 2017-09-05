@@ -1,6 +1,6 @@
 <?php
 /**
- * ProjectTeammemberTest
+ * TaxCodeReferenceTest
  *
  * PHP version 5
  *
@@ -30,16 +30,16 @@
 namespace Spinen\ConnectWise\Clients\Project;
 
 /**
- * ProjectTeammemberTest Class Doc Comment
+ * TaxCodeReferenceTest Class Doc Comment
  *
  * @category    Class */
-// * @description ProjectTeammember
+// * @description TaxCodeReference
 /**
  * @package     Spinen\ConnectWise\Clients\Project
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ProjectTeammemberTest extends \PHPUnit_Framework_TestCase
+class TaxCodeReferenceTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -75,9 +75,9 @@ class ProjectTeammemberTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "ProjectTeammember"
+     * Test "TaxCodeReference"
      */
-    public function testProjectTeammember()
+    public function testTaxCodeReference()
     {
 
     }
@@ -91,57 +91,9 @@ class ProjectTeammemberTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "project_id"
+     * Test attribute "name"
      */
-    public function testPropertyProjectId()
-    {
-
-    }
-
-    /**
-     * Test attribute "hours"
-     */
-    public function testPropertyHours()
-    {
-
-    }
-
-    /**
-     * Test attribute "member"
-     */
-    public function testPropertyMember()
-    {
-
-    }
-
-    /**
-     * Test attribute "project_role"
-     */
-    public function testPropertyProjectRole()
-    {
-
-    }
-
-    /**
-     * Test attribute "work_role"
-     */
-    public function testPropertyWorkRole()
-    {
-
-    }
-
-    /**
-     * Test attribute "start_date"
-     */
-    public function testPropertyStartDate()
-    {
-
-    }
-
-    /**
-     * Test attribute "end_date"
-     */
-    public function testPropertyEndDate()
+    public function testPropertyName()
     {
 
     }

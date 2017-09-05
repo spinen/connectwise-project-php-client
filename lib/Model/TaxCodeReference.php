@@ -1,6 +1,6 @@
 <?php
 /**
- * ProjectRoleReference
+ * TaxCodeReference
  *
  * PHP version 5
  *
@@ -32,7 +32,7 @@ namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\
 use \ArrayAccess;
 
 /**
- * ProjectRoleReference Class Doc Comment
+ * TaxCodeReference Class Doc Comment
  *
  * @category    Class */
 /**
@@ -40,7 +40,7 @@ use \ArrayAccess;
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ProjectRoleReference implements ArrayAccess
+class TaxCodeReference implements ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class ProjectRoleReference implements ArrayAccess
       * The original name of the model.
       * @var string
       */
-    protected static $swaggerModelName = 'ProjectRoleReference';
+    protected static $swaggerModelName = 'TaxCodeReference';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,7 +56,7 @@ class ProjectRoleReference implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'identifier' => 'string',
+        'name' => 'string',
         '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata'
     ];
 
@@ -71,7 +71,7 @@ class ProjectRoleReference implements ArrayAccess
      */
     protected static $attributeMap = [
         'id' => 'id',
-        'identifier' => 'identifier',
+        'name' => 'name',
         '_info' => '_info'
     ];
 
@@ -82,7 +82,7 @@ class ProjectRoleReference implements ArrayAccess
      */
     protected static $setters = [
         'id' => 'setId',
-        'identifier' => 'setIdentifier',
+        'name' => 'setName',
         '_info' => 'setInfo'
     ];
 
@@ -93,7 +93,7 @@ class ProjectRoleReference implements ArrayAccess
      */
     protected static $getters = [
         'id' => 'getId',
-        'identifier' => 'getIdentifier',
+        'name' => 'getName',
         '_info' => 'getInfo'
     ];
 
@@ -129,7 +129,7 @@ class ProjectRoleReference implements ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['id'] = isset($data['id']) ? $data['id'] : null;
-        $this->container['identifier'] = isset($data['identifier']) ? $data['identifier'] : null;
+        $this->container['name'] = isset($data['name']) ? $data['name'] : null;
         $this->container['_info'] = isset($data['_info']) ? $data['_info'] : null;
     }
 
@@ -178,22 +178,22 @@ class ProjectRoleReference implements ArrayAccess
     }
 
     /**
-     * Gets identifier
+     * Gets name
      * @return string
      */
-    public function getIdentifier()
+    public function getName()
     {
-        return $this->container['identifier'];
+        return $this->container['name'];
     }
 
     /**
-     * Sets identifier
-     * @param string $identifier
+     * Sets name
+     * @param string $name
      * @return $this
      */
-    public function setIdentifier($identifier)
+    public function setName($name)
     {
-        $this->container['identifier'] = $identifier;
+        $this->container['name'] = $name;
 
         return $this;
     }

@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **projectProjectsCountGet**
-> \Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsCountGet($conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count projectProjectsCountGet($conditions, $custom_field_conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsGet**
-> \Spinen\ConnectWise\Clients\Project\Model\Project[] projectProjectsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[] projectProjectsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Project[]**](../Model/Project.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project[]**](../Model/Project.md)
 
 ### Authorization
 
@@ -173,7 +173,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdGet**
-> \Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdGet($id)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdGet($id)
 
 
 
@@ -208,7 +208,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPatch**
-> \Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdPatch($id, $operations)
 
 
 
@@ -239,7 +239,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->projectProjectsIdPatch($id, $operations);
@@ -255,11 +255,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsIdPut**
-> \Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdPut($id, $project)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsIdPut($id, $project)
 
 
 
@@ -290,7 +290,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsApi();
 $id = 56; // int | 
-$project = new \Spinen\ConnectWise\Clients\Project\Model\Project(); // \Spinen\ConnectWise\Clients\Project\Model\Project | 
+$project = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project | 
 
 try {
     $result = $api_instance->projectProjectsIdPut($id, $project);
@@ -306,11 +306,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **project** | [**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/\Spinen\ConnectWise\Clients\Project\Model\Project.md)|  |
+ **project** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
 
 ### Authorization
 
@@ -324,7 +324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **projectProjectsPost**
-> \Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsPost($project)
+> \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project projectProjectsPost($project)
 
 
 
@@ -340,7 +340,7 @@ Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Project\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Project\Api\ProjectsApi();
-$project = new \Spinen\ConnectWise\Clients\Project\Model\Project(); // \Spinen\ConnectWise\Clients\Project\Model\Project | 
+$project = new \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project(); // \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project | 
 
 try {
     $result = $api_instance->projectProjectsPost($project);
@@ -355,11 +355,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **project** | [**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/\Spinen\ConnectWise\Clients\Project\Model\Project.md)|  |
+ **project** | [**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
+[**\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Project**](../Model/Project.md)
 
 ### Authorization
 

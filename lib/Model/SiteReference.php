@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Model;
+namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class SiteReference implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Project\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -200,7 +200,7 @@ class SiteReference implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata
      */
     public function getInfo()
     {
@@ -209,7 +209,7 @@ class SiteReference implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

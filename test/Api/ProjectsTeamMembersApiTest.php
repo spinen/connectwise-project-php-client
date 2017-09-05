@@ -1,6 +1,6 @@
 <?php
 /**
- * ProjectsTeamMembersApiTest
+ * ProjectsTeammembersApiTest
  * PHP version 5
  *
  * @category Class
@@ -34,14 +34,14 @@ use \Spinen\ConnectWise\Clients\Project\ApiException;
 use \Spinen\ConnectWise\Clients\Project\ObjectSerializer;
 
 /**
- * ProjectsTeamMembersApiTest Class Doc Comment
+ * ProjectsTeammembersApiTest Class Doc Comment
  *
  * @category Class
  * @package  Spinen\ConnectWise\Clients\Project
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class ProjectsTeamMembersApiTest extends \PHPUnit_Framework_TestCase
+class ProjectsTeammembersApiTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

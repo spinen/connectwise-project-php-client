@@ -1,6 +1,6 @@
 <?php
 /**
- * ProjectTeamMember
+ * ProjectTeammember
  *
  * PHP version 5
  *
@@ -27,12 +27,12 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Project\Model;
+namespace Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model;
 
 use \ArrayAccess;
 
 /**
- * ProjectTeamMember Class Doc Comment
+ * ProjectTeammember Class Doc Comment
  *
  * @category    Class */
 /**
@@ -40,7 +40,7 @@ use \ArrayAccess;
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ProjectTeamMember implements ArrayAccess
+class ProjectTeammember implements ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class ProjectTeamMember implements ArrayAccess
       * The original name of the model.
       * @var string
       */
-    protected static $swaggerModelName = 'ProjectTeamMember';
+    protected static $swaggerModelName = 'ProjectTeammember';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -58,12 +58,12 @@ class ProjectTeamMember implements ArrayAccess
         'id' => 'int',
         'project_id' => 'int',
         'hours' => 'double',
-        'member' => '\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
-        'project_role' => '\Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference',
-        'work_role' => '\Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference',
+        'member' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference',
+        'project_role' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference',
+        'work_role' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference',
         'start_date' => '\DateTime',
         'end_date' => '\DateTime',
-        '_info' => '\Spinen\ConnectWise\Clients\Project\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -263,7 +263,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Project\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference
      */
     public function getMember()
     {
@@ -272,7 +272,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Project\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -284,7 +284,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Gets project_role
-     * @return \Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference
      */
     public function getProjectRole()
     {
@@ -293,7 +293,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Sets project_role
-     * @param \Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference $project_role
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\ProjectRoleReference $project_role
      * @return $this
      */
     public function setProjectRole($project_role)
@@ -305,7 +305,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Gets work_role
-     * @return \Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference
      */
     public function getWorkRole()
     {
@@ -314,7 +314,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Sets work_role
-     * @param \Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference $work_role
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\WorkRoleReference $work_role
      * @return $this
      */
     public function setWorkRole($work_role)
@@ -368,7 +368,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Project\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata
      */
     public function getInfo()
     {
@@ -377,7 +377,7 @@ class ProjectTeamMember implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Project\Spinen\ConnectWise\Clients\Project\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
